@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- title ----->
+    <title>Colorlib | eCommerce Website</title>
+
+    <!---- swiper css cdn link ---->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+
+    <!---- customer css file ---->
+    <link rel="stylesheet" href="./style.css">
+
+    <!---- boxicon cdn link ---->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="top-header">
+            <div class="logo">
+                <img src="./images/logo/logo-01.png.webp" alt="">
+            </div>
+            <div class="navBar">
+                <a href="#">home</a>
+                <a href="#">shop</a>
+                <a href="#">features</a>
+                <a href="#">blog</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+                <i class='bx bx-x' id="close"></i>
+            </div>
+            <div class="others">
+                <i class='bx bx-search-alt-2' ></i>
+                <i class='bx bx-cart' ></i>
+                <i class='bx bx-heart' ></i>
+                <i class='bx bx-menu-alt-left' id="menuBar"></i>
+            </div>
+        </div>
+
+        <div class="home">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="col-1">
+                            <h4>bags collection 2023</h4>
+                            <h2>new arrivals</h2>
+                            <button>shop now</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="col-1">
+                            <h4>shoes collection 2023</h4>
+                            <h2>new collections</h2>
+                            <button>shop now</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="col-1">
+                            <h4>shirts collection 2023</h4>
+                            <h2>new products</h2>
+                            <button>shop now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiperBtn" ></div>
+                <div class="swiper-button-prev swiperBtn" ></div>
+            </div>
+        </div>
+    </header>
+
+    <!---- swiper js cdn link ---->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!----customer js file ---->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
